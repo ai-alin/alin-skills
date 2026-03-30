@@ -1,19 +1,19 @@
 # alin-skills
 
-A collection of Claude Code skills by [A-Lin](https://github.com/RongShiMr), focused on content publishing workflows and knowledge management.
+A collection of Claude Code skills by [A-Lin](https://github.com/alin-mr), focused on content publishing workflows and knowledge management.
 
 [中文文档](./README.zh.md)
 
 ## Install
 
 ```bash
-npx skills add RongShiMr/alin-skills --skill <skill-name>
+npx skills add alin-mr/alin-skills --skill <skill-name>
 ```
 
 Or install all skills at once:
 
 ```bash
-npx skills add RongShiMr/alin-skills
+npx skills add alin-mr/alin-skills
 ```
 
 ## Skills

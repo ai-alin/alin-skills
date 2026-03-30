@@ -1,6 +1,6 @@
 # alin-skills
 
-[A-Lin](https://github.com/RongShiMr) 的 Claude Code Skill 合集，专注于内容发布工作流和知识管理。
+[A-Lin](https://github.com/alin-mr) 的 Claude Code Skill 合集，专注于内容发布工作流和知识管理。
 
 [English](./README.md)
 
@@ -9,13 +9,13 @@
 安装单个 Skill：
 
 ```bash
-npx skills add RongShiMr/alin-skills --skill <skill-name>
+npx skills add alin-mr/alin-skills --skill <skill-name>
 ```
 
 安装全部 Skill：
 
 ```bash
-npx skills add RongShiMr/alin-skills
+npx skills add alin-mr/alin-skills
 ```
 
 ## Skill 列表
