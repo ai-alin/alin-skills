@@ -1,0 +1,23 @@
+{
+  "skill_name": "obsidian-to-lark",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "帮我把这篇文章同步到飞书：99_系统/归档/项目/2026/Obsidian下载与Claudian入门教程推文.md",
+      "expected_output": "新建飞书文档，正文完整，本地图片全部上传，frontmatter 写回 feishu_doc_id，输出同步报告含文档链接和图片统计",
+      "files": ["99_系统/归档/项目/2026/Obsidian下载与Claudian入门教程推文.md"]
+    },
+    {
+      "id": 2,
+      "prompt": "把 20_项目/X自动发文Skill技术解析-演示文章.md 同步到飞书，已有文档 https://www.feishu.cn/docx/N5sjdnuWSo3uwCxB6pucGjJrn0f",
+      "expected_output": "覆盖更新已有文档，不新建，frontmatter 更新 feishu_synced_at",
+      "files": ["20_项目/X自动发文Skill技术解析-演示文章.md"]
+    },
+    {
+      "id": 3,
+      "prompt": "同步到飞书：20_项目/Ghostty终端完全指南.md",
+      "expected_output": "正确处理 Obsidian 特有语法（callout/wikilink/高亮），新建文档，输出报告",
+      "files": ["20_项目/Ghostty终端完全指南.md"]
+    }
+  ]
+}
