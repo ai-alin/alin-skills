@@ -381,7 +381,8 @@ function main() {
 
     if (seg.type === 'text') {
       for (const chunk of chunkText(seg.content)) {
-        const r = lark(['docs', '+update', '--doc', docId, '--mode', 'append', '--markdown', chunk]);
+        // 用 --markdown=VALUE 等号语法：防止 chunk 以 "---" 开头时 Cobra 误当成 flag
+        const r = lark(['docs', '+update', '--doc', docId, '--mode', 'append', `--markdown=${chunk}`]);
         if (!r.data) log(`  ⚠️  Text append failed (segment ${i})`);
       }
     } else if (seg.type === 'image') {
